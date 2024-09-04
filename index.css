@@ -1,0 +1,1373 @@
+.header{
+    display: flex;
+    }
+    .header nav ul{
+        list-style: none;
+        color:   #D6C4B0;;
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        margin-left: 900px;
+        
+    }
+    .header nav a{
+        text-decoration: none;
+        color:   #D6C4B0;;
+    }
+    .header img{
+        height: 40px;
+        margin-left: 10px;
+        vertical-align: middle;
+        border-style: none;
+        padding-top: 15px;
+        margin-left: 50px;
+        border-radius: 10px;
+    }
+    .fa-solid{
+        padding-top: 25px;
+        margin-left: 300px;
+    }
+    .header nav a:hover{
+        text-decoration: underline;
+        text-decoration-color: white;
+        text-decoration-thickness: 2px;
+    }
+    .gallery{
+        grid-template-columns: 1fr 1fr 1fr;
+        display: grid;
+        grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+        padding:1rem;
+        height: 200vh;
+        
+    }
+    .img1{
+        background-image: url(./Asset/one.jpg.webp);
+        background-size: cover;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        justify-content: center;
+        grid-row-end: 2;
+        grid-row-start: 1;
+        filter: blur(5px);
+        cursor: pointer;
+        display: flex;
+       
+     
+    }
+    .img1:hover{
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-row-end: 2;
+        grid-row-start: 1;
+        filter: blur(0);
+        scale: 1;
+       
+    }
+    
+    .img2{
+        background-image: url(./Asset/two.jpg.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-row-end: 3;
+        justify-content: center;
+        grid-row-start: 1;
+        filter: blur(5px);
+        cursor: pointer;
+        display: flex;
+    }
+    .img2:hover{
+        background-image: url(./Asset/two.jpg.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-row-end: 3;
+        grid-row-start: 1;
+        filter: blur(0);
+        scale: 1;
+    }
+    .img3{
+        background-image: url(./Asset/three.jpg.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-row-end: 3;
+        grid-row-start: 2;
+        filter: blur(5px);
+        cursor: pointer;
+        justify-content: center;
+        display: flex;
+    }
+    .img3:hover{
+        background-image: url( ./Asset/three.jpg.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-row-end: 3;
+        grid-row-start: 2;
+        filter: blur(0);
+        scale: 1;
+    }
+    .img4{
+        background-image: url(./Asset/four.jpg.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-row-end: 5;
+        grid-row-start: 3;
+        filter: blur(5px);
+        cursor: pointer;
+        justify-content: center;
+        display: flex;
+    }
+    .img4:hover{
+        background-image: url(./Asset/four.jpg.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-row-end: 5;
+        grid-row-start: 3;
+        filter: blur(0);
+        scale: 1;
+    }
+    .img5{
+        background-image: url(./Asset/five.jpg.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-row-end: 3;
+        grid-row-start: 3;
+        filter: blur(5px);
+        cursor: pointer;
+        justify-content: center;
+        display: flex;
+    }
+    .img5:hover{
+        background-image: url(./Asset/five.jpg.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-row-end: 3;
+        grid-row-start: 3;
+        filter: blur(0px);
+        scale: 1;
+    
+    }
+    .img6{
+        background-image: url(./Asset/six.jpg.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 2;
+        grid-row-end: 5;
+        grid-row-start: 4;
+        cursor: pointer;
+        filter: blur(5px);
+        justify-content: center;
+        display: flex;
+    }
+    .img6:hover{
+        background-image: url(./Asset/six.jpg.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 2;
+        grid-row-end: 5;
+        grid-row-start: 4;
+        filter: blur(0px);
+        scale: 1;
+    }
+    .img7{
+        background-image: url(./Asset/seven.jpg.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 3;
+        grid-row-end: 3;
+        grid-row-start: 1;
+        cursor: pointer;
+        filter: blur(5px);
+        text-align: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img7:hover{
+        background-image: url(./Asset/seven.jpg.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 3;
+        grid-row-end: 3;
+        grid-row-start: 1;
+        filter: blur(0px);
+        scale: 1;
+    }
+    .img8{
+        background-image: url(./Asset/eight.jpg.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 3;
+        grid-row-end: 5;
+        grid-row-start: 3;
+        cursor: pointer;
+        filter: blur(5px);
+        text-align: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img8:hover{
+        background-image: url(./Asset/eight.jpg.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 3;
+        grid-row-end: 5;
+        grid-row-start: 3;
+        filter: blur(0px);
+        scale: 1;
+    }
+    .img9{
+        background-image: url(./Asset/nine.jpg.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 1;
+        grid-row-end: 7;
+        grid-row-start: 5;
+        cursor: pointer;
+        filter: blur(5px);
+        text-align: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img9:hover{
+        background-image: url(./Asset/nine.jpg.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 1;
+        grid-row-end: 7;
+        grid-row-start: 5;
+        filter: blur(0);
+        scale: 1;
+    }
+    .img10{
+        background-image: url(./Asset/ten.jpg.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 2;
+        grid-row-end: 7;
+        grid-row-start: 5;
+        cursor: pointer;
+        filter: blur(5px);
+        text-align: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img10:hover{
+        background-image: url(./Asset/ten.jpg.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 2;
+        grid-row-end: 7;
+        grid-row-start: 5;
+        filter: blur(0px);
+        scale: 1;
+    }
+    .img11{
+        background-image: url(./Asset/eleven.jpg.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 3;
+        grid-row-end: 7;
+        grid-row-start: 5;
+        cursor: pointer;
+        filter: blur(5px);
+        text-align: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img11:hover{
+        background-image: url(./Asset/eleven.jpg.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 3;
+        grid-row-end: 7;
+        grid-row-start: 5;
+        filter: blur(0px);
+        scale: 1;
+    }
+    .img12{
+        background-image: url(./Asset/twelve.jpg.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 1;
+        grid-row-end: 9;
+        grid-row-start: 7;
+        cursor: pointer;
+        filter: blur(5px);
+        text-align: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img12:hover{
+        background-image: url(./Asset/twelve.jpg.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 1;
+        grid-row-end: 9;
+        grid-row-start: 7;
+        filter: blur(0px);
+        scale: 1;
+    }
+    .img13{
+        background-image: url(./Asset/thirteen.jpg.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 2;
+        grid-row-end: 9;
+        grid-row-start: 7;
+        cursor: pointer;
+        filter: blur(5px);
+        text-align: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img13:hover{
+        background-image: url(./Asset/thirteen.jpg.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 2;
+        grid-row-end: 9;
+        grid-row-start: 7;
+        filter: blur(0px);
+        scale: 1;
+    }
+    .img14{
+        background-image: url(./Asset/fourteen.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 3;
+        grid-row-end: 9;
+        grid-row-start: 7;
+        cursor: pointer;
+        filter: blur(5px);
+        text-align: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img14:hover{
+        background-image: url(./Asset/fourteen.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 3;
+        grid-row-end: 9;
+        grid-row-start: 7;
+        filter: blur(0px);
+        scale: 1;
+    }
+    .img15{
+        background-image: url(./Asset/fifteen.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 1;
+        grid-row-end: 11;
+        grid-row-start: 9;
+        cursor: pointer;
+        filter: blur(5px);
+        text-align: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img15:hover{
+        background-image: url(./Asset/fifteen.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 1;
+        grid-row-end: 11;
+        grid-row-start: 9;
+        filter: blur(0px);
+        scale: 1;
+    }
+    .img16{
+        background-image: url(./Asset/sixteen.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 2;
+        grid-row-end: 11;
+        grid-row-start: 9;
+        cursor: pointer;
+        filter: blur(5px);
+        text-align: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img16:hover{
+        background-image: url(./Asset/sixteen.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 2;
+        grid-row-end: 11;
+        grid-row-start: 9;
+        filter: blur(0px);
+        scale: 1;
+    }
+    .img17{
+        background-image: url(./Asset/seventeen.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 3;
+        grid-row-end: 11;
+        grid-row-start: 9;
+        cursor: pointer;
+        filter: blur(5px);
+        text-align: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img17:hover{
+        background-image: url(./Asset/seventeen.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 3;
+        grid-row-end: 11;
+        grid-row-start: 9;
+        filter: blur(0px);
+        scale: 1;
+    }
+    .img18{
+        background-image: url(./Asset/eighteen.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 1;
+        grid-row-end: 11;
+        grid-row-start: 13;
+        cursor: pointer;
+        filter: blur(5px);
+        text-align: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img18:hover{
+        background-image: url(./Asset/eighteen.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 1;
+        grid-row-end: 11;
+        grid-row-start: 13;
+        filter: blur(0px);
+        scale: 1;
+    }
+    .img19{
+        background-image: url(./Asset/nineteen.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 2;
+        grid-row-end: 13;
+        grid-row-start: 11;
+        cursor: pointer;
+        filter: blur(5px);
+        text-align: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img19:hover{
+        background-image: url(./Asset/nineteen.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 2;
+        grid-row-end: 13;
+        grid-row-start: 11;
+        filter: blur(0px);
+        scale: 1;
+    }
+    .img20{
+        background-image: url(./Asset/twenty.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 3;
+        grid-row-end: 13;
+        grid-row-start: 11;
+        cursor: pointer;
+        filter: blur(5px);
+        text-align: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img20:hover{
+        background-image: url(./Asset/twenty.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 3;
+        grid-row-end: 13;
+        grid-row-start: 11;
+        filter: blur(0px);
+        scale: 1;
+    }
+    .f{
+        height: 35vh;
+        width: 100%;
+        background-color:rgba(0, 0, 0, 0.306) ;
+        text-align: center;
+        color: white;
+    }
+    .f img{
+        width: 90px;
+        height:70px ;
+        border-radius: 10PX;
+    
+    }
+    .image-text1{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        position: relative;
+        width: 100px;
+        
+    }
+    
+    .image-text1::after{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        transition: 2s;
+        margin-top: 35px;
+        opacity: 1;
+    
+      }
+    .image-text1::before{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        margin-bottom: 35px;
+        transition: 2s;
+        opacity: 1;
+        
+      }
+      .image-text1:hover{
+        width:100px;
+        opacity: 1;
+      }
+    .image-text1:hover::before,.image-text1:hover::after{
+        width:100px;
+        opacity: 1;
+    }
+    .image-text2{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        position: relative;
+        width: 100px;
+        
+    }
+    
+    .image-text2::after{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        transition: 2s;
+        margin-top: 35px;
+        opacity: 1;
+    
+      }
+    .image-text2::before{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        margin-bottom: 35px;
+        transition: 2s;
+        opacity: 1;
+        
+      }
+      .image-text2:hover{
+        width:100px;
+        opacity: 1;
+      }
+    .image-text2:hover::before,.image-text2:hover::after{
+        width:100px;
+        opacity: 1;
+    }
+    .image-text3{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        position: relative;
+        width: 100px;
+        
+    }
+    
+    .image-text3::after{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        transition: 2s;
+        margin-top: 35px;
+        opacity: 1;
+    
+      }
+    .image-text3::before{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        margin-bottom: 35px;
+        transition: 2s;
+        opacity: 1;
+        
+      }
+      .image-text3:hover{
+        width:100px;
+        opacity: 1;
+      }
+    .image-text3:hover::before,.image-text3:hover::after{
+        width:100px;
+        opacity: 1;
+    }
+    .image-text4{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        position: relative;
+        width: 100px;
+        
+    }
+    
+    .image-text4::after{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        transition: 2s;
+        margin-top: 35px;
+        opacity: 1;
+    
+      }
+    .image-text4::before{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        margin-bottom: 35px;
+        transition: 2s;
+        opacity: 1;
+        
+      }
+      .image-text4:hover{
+        width:100px;
+        opacity: 1;
+      }
+    .image-text4:hover::before,.image-text4:hover::after{
+        width:100px;
+        opacity: 1;
+    }
+    .image-text5{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        position: relative;
+        width: 100px;
+        
+    }
+    
+    .image-text5::after{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        transition: 2s;
+        margin-top: 35px;
+        opacity: 1;
+    
+      }
+    .image-text5::before{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        margin-bottom: 35px;
+        transition: 2s;
+        opacity: 1;
+        
+      }
+      .image-text5:hover{
+        width:100px;
+        opacity: 1;
+      }
+    .image-text5:hover::before,.image-text5:hover::after{
+        width:100px;
+        opacity: 1;
+    }
+    .image-text6{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        position: relative;
+        width: 100px;
+        
+    }
+    
+    .image-text6::after{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        transition: 2s;
+        margin-top: 35px;
+        opacity: 1;
+    
+      }
+    .image-text6::before{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        margin-bottom: 35px;
+        transition: 2s;
+        opacity: 1;
+        
+      }
+      .image-text6:hover{
+        width:100px;
+        opacity: 1;
+      }
+    .image-text6:hover::before,.image-text6:hover::after{
+        width:100px;
+        opacity: 1;
+    }
+    .image-text7{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        position: relative;
+        width: 100px;
+        
+    }
+    
+    .image-text7::after{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        transition: 2s;
+        margin-top: 35px;
+        opacity: 1;
+    
+      }
+    .image-text7::before{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        margin-bottom: 35px;
+        transition: 2s;
+        opacity: 1;
+        
+      }
+      .image-text7:hover{
+        width:100px;
+        opacity: 1;
+      }
+    .image-text7:hover::before,.image-text7:hover::after{
+        width:100px;
+        opacity: 1;
+    }
+    .image-text8{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        position: relative;
+        width: 100px;
+        
+    }
+    
+    .image-text8::after{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        transition: 2s;
+        margin-top: 35px;
+        opacity: 1;
+    
+      }
+    .image-text8::before{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        margin-bottom: 35px;
+        transition: 2s;
+        opacity: 1;
+        
+      }
+      .image-text8:hover{
+        width:100px;
+        opacity: 1;
+      }
+    .image-text8:hover::before,.image-text8:hover::after{
+        width:100px;
+        opacity: 1;
+    }
+    .image-text9{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        position: relative;
+        width: 100px;
+        
+    }
+    
+    .image-text9::after{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        transition: 2s;
+        margin-top: 35px;
+        opacity: 1;
+    
+      }
+    .image-text9::before{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        margin-bottom: 35px;
+        transition: 2s;
+        opacity: 1;
+        
+      }
+      .image-text9:hover{
+        width:100px;
+        opacity: 1;
+      }
+    .image-text9:hover::before,.image-text9:hover::after{
+        width:100px;
+        opacity: 1;
+    }
+    .image-text10{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        position: relative;
+        width: 100px;
+        
+    }
+    
+    .image-text10::after{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        transition: 2s;
+        margin-top: 35px;
+        opacity: 1;
+    
+      }
+    .image-text10::before{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        margin-bottom: 35px;
+        transition: 2s;
+        opacity: 1;
+        
+      }
+      .image-text10:hover{
+        width:100px;
+        opacity: 1;
+      }
+    .image-text10:hover::before,.image-text10:hover::after{
+        width:100px;
+        opacity: 1;
+    }
+    .image-text11{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        position: relative;
+        width: 100px;
+        
+    }
+    
+    .image-text11::after{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        transition: 2s;
+        margin-top: 35px;
+        opacity: 1;
+    
+      }
+    .image-text11::before{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        margin-bottom: 35px;
+        transition: 2s;
+        opacity: 1;
+        
+      }
+      .image-text11:hover{
+        width:100px;
+        opacity: 1;
+      }
+    .image-text11:hover::before,.image-text11:hover::after{
+        width:100px;
+        opacity: 1;
+    }
+    .image-text12{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        position: relative;
+        width: 100px;
+        
+    }
+    
+    .image-text12::after{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        transition: 2s;
+        margin-top: 35px;
+        opacity: 1;
+    
+      }
+    .image-text12::before{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        margin-bottom: 35px;
+        transition: 2s;
+        opacity: 1;
+        
+      }
+      .image-text12:hover{
+        width:100px;
+        opacity: 1;
+      }
+    .image-text12:hover::before,.image-text12:hover::after{
+        width:100px;
+        opacity: 1;
+    }
+    .image-text13{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        position: relative;
+        width: 100px;
+        
+    }
+    
+    .image-text13::after{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        transition: 2s;
+        margin-top: 35px;
+        opacity: 1;
+    
+      }
+    .image-text13::before{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        margin-bottom: 35px;
+        transition: 2s;
+        opacity: 1;
+        
+      }
+      .image-text13:hover{
+        width:100px;
+        opacity: 1;
+      }
+    .image-text13:hover::before,.image-text13:hover::after{
+        width:100px;
+        opacity: 1;
+    }
+    .image-text14{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        position: relative;
+        width: 100px;
+        
+    }
+    
+    .image-text14::after{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        transition: 2s;
+        margin-top: 35px;
+        opacity: 1;
+    
+      }
+    .image-text14::before{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        margin-bottom: 35px;
+        transition: 2s;
+        opacity: 1;
+        
+      }
+      .image-text14:hover{
+        width:100px;
+        opacity: 1;
+      }
+    .image-text14:hover::before,.image-text14:hover::after{
+        width:100px;
+        opacity: 1;
+    }
+    .image-text15{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        position: relative;
+        width: 100px;
+        
+    }
+    
+    .image-text15::after{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        transition: 2s;
+        margin-top: 35px;
+        opacity: 1;
+    
+      }
+    .image-text15::before{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        margin-bottom: 35px;
+        transition: 2s;
+        opacity: 1;
+        
+      }
+      .image-text15:hover{
+        width:100px;
+        opacity: 1;
+      }
+    .image-text15:hover::before,.image-text15:hover::after{
+        width:100px;
+        opacity: 1;
+    }
+    .image-text16{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        position: relative;
+        width: 100px;
+        
+    }
+    
+    .image-text16::after{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        transition: 2s;
+        margin-top: 35px;
+        opacity: 1;
+    
+      }
+    .image-text16::before{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        margin-bottom: 35px;
+        transition: 2s;
+        opacity: 1;
+        
+      }
+      .image-text16:hover{
+        width:100px;
+        opacity: 1;
+      }
+    .image-text16:hover::before,.image-text16:hover::after{
+        width:100px;
+        opacity: 1;
+    }
+    .image-text17{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        position: relative;
+        width: 100px;
+        
+    }
+    
+    .image-text17::after{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        transition: 2s;
+        margin-top: 35px;
+        opacity: 1;
+    
+      }
+    .image-text17::before{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        margin-bottom: 35px;
+        transition: 2s;
+        opacity: 1;
+        
+      }
+      .image-text17:hover{
+        width:100px;
+        opacity: 1;
+      }
+    .image-text17:hover::before,.image-text17:hover::after{
+        width:100px;
+        opacity: 1;
+    }
+    .image-text18{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        position: relative;
+        width: 100px;
+        
+    }
+    
+    .image-text18::after{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        transition: 2s;
+        margin-top: 35px;
+        opacity: 1;
+    
+      }
+    .image-text18::before{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        margin-bottom: 35px;
+        transition: 2s;
+        opacity: 1;
+        
+      }
+      .image-text18:hover{
+        width:100px;
+        opacity: 1;
+      }
+    .image-text18:hover::before,.image-text18:hover::after{
+        width:100px;
+        opacity: 1;
+    }
+    .image-text19{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        position: relative;
+        width: 100px;
+        
+    }
+    
+    .image-text19::after{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        transition: 2s;
+        margin-top: 35px;
+        opacity: 1;
+    
+      }
+    .image-text19::before{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        margin-bottom: 35px;
+        transition: 2s;
+        opacity: 1;
+        
+      }
+      .image-text19:hover{
+        width:100px;
+        opacity: 1;
+      }
+    .image-text19:hover::before,.image-text19:hover::after{
+        width:100px;
+        opacity: 1;
+    }
+    .image-text20{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        position: relative;
+        width: 100px;
+        
+    }
+    
+    .image-text20::after{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        transition: 2s;
+        margin-top: 35px;
+        opacity: 1;
+    
+      }
+    .image-text20::before{
+        content: "";
+        width: 0px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        margin-bottom: 35px;
+        transition: 2s;
+        opacity: 1;
+        
+      }
+      .image-text20:hover{
+        width:100px;
+        opacity: 1;
+      }
+    .image-text20:hover::before,.image-text20:hover::after{
+        width:100px;
+        opacity: 1;
+    }
